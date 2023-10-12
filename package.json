@@ -1,0 +1,24 @@
+{
+  "name": "gitlab-ci-gen",
+  "version": "0.0.0",
+  "description": "Library to help generate GitLab CI pipelines",
+  "main": "lib/index.js",
+  "author": "Drew Gingerich",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/drewgingerich/gitlab-ci-gen.git"
+  },
+  "bugs": {
+    "url": "https://github.com/drewgingerich/gitlab-ci-gen/issues"
+  },
+  "homepage": "https://github.com/drewgingerich/gitlab-ci-gen#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.4",
+    "typescript": "^5.2.2"
+  }
+}
